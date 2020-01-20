@@ -20,9 +20,32 @@ namespace S2._01.WpfIntro_05
     /// </summary>
     public partial class MainWindow: Window
     {
+        int i;
         public MainWindow()
         {
             InitializeComponent();
+
         }
+
+        private void buttonToClick_Click(object sender, RoutedEventArgs e)
+        {
+            Random rndNum = new Random();
+
+            double leftPosition = rndNum.Next(20, 20);
+           
+           
+            Thickness position = buttonToClick.Margin;
+
+         
+            position.Left = leftPosition;
+         
+         
+
+
+            
+
+        }
+
+
     }
 }

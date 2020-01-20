@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:S2._01.WpfIntro_05"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        WindowState="Maximized"
+        WindowStyle="None"
+        Title="MainWindow"
+        Height="450"
+        Width="800">
     <Grid>
+        <Button x:Name="buttonToClick"
+                Content="Fang mig!"
+                FontSize="18"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Height="80"
+                Width="80"
+                Background="Red"
+                Click="buttonToClick_Click"
+                Margin="377,185,0,0" />
+
+        <TextBlock x:Name="points"
+                   FontWeight="Bold"
+                   FontSize="28"
+                   HorizontalAlignment="Left"
+                   Margin="657,10,0,0"
+                   Text="Point: 0"
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Top"
+                   Width="142" />
 
     </Grid>
 </Window>
