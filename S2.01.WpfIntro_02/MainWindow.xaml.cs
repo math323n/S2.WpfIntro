@@ -24,5 +24,12 @@ namespace S2._01.WpfIntro_02
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            button.Background = Brushes.Green;
+
+
+        }
     }
 }
