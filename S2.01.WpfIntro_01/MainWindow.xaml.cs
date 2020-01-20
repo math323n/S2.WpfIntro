@@ -24,5 +24,10 @@ namespace S2._01.WpfIntro_01
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Du trykkede på knappen");
+        }
     }
 }
