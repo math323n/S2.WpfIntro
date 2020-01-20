@@ -20,9 +20,16 @@ namespace S2._01.WpfIntro_03
     /// </summary>
     public partial class MainWindow: Window
     {
+        int counter = 0;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void buttonBox_Click(object sender, RoutedEventArgs e)
+        {
+            counter++;
+            textBlockBox.Text = counter.ToString();
         }
     }
 }

@@ -5,8 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:S2._01.WpfIntro_03"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"
+        Height="450"
+        Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button x:Name="buttonBox"
+                Content="Button"
+                HorizontalAlignment="Left"
+                Margin="48,135,0,0"
+                VerticalAlignment="Top"
+                Height="82"
+                Width="162"
+                Click="buttonBox_Click" />
+
+        <TextBlock x:Name="textBlockBox"
+                   HorizontalAlignment="Left"
+                   Margin="463,182,0,0"
+                   Text="0"
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Top"
+                   Height="105"
+                   Width="92"
+                   FontSize="48"
+                   FontFamily="Adobe Heiti Std R" />
+
 
     </Grid>
+
+
 </Window>
