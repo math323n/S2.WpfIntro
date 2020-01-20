@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_02", "S2.01.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_03", "S2.01.WpfIntro_03\S2.01.WpfIntro_03.csproj", "{3809A34E-EF6C-4D0E-8226-5FF4DAB659D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_04", "S2.01.WpfIntro_04\S2.01.WpfIntro_04.csproj", "{5C487F3E-DE68-43ED-8799-5D0D6F3EEA8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_05", "S2.01.WpfIntro_05\S2.01.WpfIntro_05.csproj", "{2B5C840E-2B9D-4F7C-A2DB-D5BFB5F981FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{3809A34E-EF6C-4D0E-8226-5FF4DAB659D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3809A34E-EF6C-4D0E-8226-5FF4DAB659D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3809A34E-EF6C-4D0E-8226-5FF4DAB659D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C487F3E-DE68-43ED-8799-5D0D6F3EEA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C487F3E-DE68-43ED-8799-5D0D6F3EEA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C487F3E-DE68-43ED-8799-5D0D6F3EEA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C487F3E-DE68-43ED-8799-5D0D6F3EEA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5C840E-2B9D-4F7C-A2DB-D5BFB5F981FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5C840E-2B9D-4F7C-A2DB-D5BFB5F981FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5C840E-2B9D-4F7C-A2DB-D5BFB5F981FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5C840E-2B9D-4F7C-A2DB-D5BFB5F981FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
