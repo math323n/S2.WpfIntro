@@ -5,8 +5,83 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:S2._01.WpfIntro_07"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"
+        Height="400"
+        Width="400">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="firstNameBox"
+                 Grid.Column="1"
+                 HorizontalAlignment="Center"
+                 FontSize="16"
+                 Text=""
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Center"
+                 Width="114"
+                 Height="24" />
+        <TextBox x:Name="lastNameBox"
+                 Grid.Column="1"
+                 HorizontalAlignment="Center"
+                 FontSize="16"
+                 Text=""
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Center"
+                 Width="114"
+                 Height="24"
+                 Grid.Row="1" />
+        <TextBlock x:Name="textBlocklastName"
+                   Grid.Column="1"
+                   HorizontalAlignment="Center"
+                   Margin="0,2,0,0"
+                   Text="Efternavn:"
+                   TextWrapping="Wrap"
+                   FontSize="22"
+                   VerticalAlignment="Top"
+                   Grid.Row="1" />
+        <TextBlock x:Name="textBlockFirstName"
+                   Grid.Column="1"
+                   HorizontalAlignment="Center"
+                   Margin="0,2,0,0"
+                   Text="Fornavn:"
+                   FontSize="22"
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Top" />
+        <Button x:Name="submitName"
+                Content="Indsend  navn"
+                Grid.Column="1"
+                HorizontalAlignment="Center"
+                Margin="0,96,0,0"
+                Grid.Row="1"
+                VerticalAlignment="Top"
+                Height="34"
+                Width="134"
+                BorderBrush="#FF5AEA16"
+                Background="#FF96C987"
+                Click="submitName_Click"
+                Grid.RowSpan="2" />
+        <TextBlock x:Name="finalName"
+                   HorizontalAlignment="Left"
+                   Margin="10,48,0,0"
+                   Text=""
+                   TextWrapping="Wrap"
+                   FontSize="16"
+                   VerticalAlignment="Top"
+                   Grid.Row="2"
+                   Width="380"
+                   Height="35"
+                   TextAlignment="Center"
+                   Grid.ColumnSpan="3" />
+
 
     </Grid>
 </Window>

@@ -20,9 +20,17 @@ namespace S2._01.WpfIntro_07
     /// </summary>
     public partial class MainWindow: Window
     {
+        string name;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void submitName_Click(object sender, RoutedEventArgs e)
+        {
+            name = firstNameBox.Text + " " + lastNameBox.Text;
+            finalName.Text = name;
+           
         }
     }
 }
