@@ -20,7 +20,7 @@ namespace S2._01.WpfIntro_05
     /// </summary>
     public partial class MainWindow: Window
     {
-        int i;
+        int counter;
         public MainWindow()
         {
             InitializeComponent();
@@ -29,20 +29,24 @@ namespace S2._01.WpfIntro_05
 
         private void buttonToClick_Click(object sender, RoutedEventArgs e)
         {
-            Random rndNum = new Random();
-
-            double leftPosition = rndNum.Next(20, 20);
-           
-           
-            Thickness position = buttonToClick.Margin;
-
-         
-            position.Left = leftPosition;
-         
-         
+            int positionLeft;
+            int positionTop;
 
 
-            
+            Random rndNumGen = new Random();
+
+
+            positionLeft = rndNumGen.Next(40, 1500);
+            positionTop = rndNumGen.Next(40, 700);
+
+
+            buttonToClick.Margin = new Thickness(positionLeft, positionTop, 0, 0);
+
+
+            counter++;
+            points.Text = counter.ToString();
+
+
 
         }
 

@@ -8,7 +8,7 @@
         WindowState="Maximized"
         WindowStyle="None"
         Title="MainWindow"
-        Height="450"
+        Height="800"
         Width="800">
     <Grid>
         <Button x:Name="buttonToClick"
@@ -20,17 +20,19 @@
                 Width="80"
                 Background="Red"
                 Click="buttonToClick_Click"
-                Margin="377,185,0,0" />
+                Margin="477,312,0,0" />
 
         <TextBlock x:Name="points"
                    FontWeight="Bold"
-                   FontSize="28"
+                   FontSize="48"
                    HorizontalAlignment="Left"
-                   Margin="657,10,0,0"
-                   Text="Point: 0"
+                   Margin="741,10,0,0"
+                   Text="0"
                    TextWrapping="Wrap"
                    VerticalAlignment="Top"
-                   Width="142" />
+                   Width="142"
+                   Foreground="Red"
+                   FontFamily="Arial Rounded MT Bold" />
 
     </Grid>
 </Window>
