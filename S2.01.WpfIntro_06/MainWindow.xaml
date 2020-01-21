@@ -24,19 +24,28 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <TextBox x:Name="userInput"
-                 Grid.Row="
-                 0" Grid.Column="
-                 0" FontSize="
+                 Grid.Column="
+                 1"
+                 FontSize="
                  20"
-                 Text="Indtast dit navn"
-                 VerticalAlignment="
-                 Center" HorizontalAlignment="
-                 Center"
-                 TextChanged="userInput_TextChanged" />
+                 Text=""
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Center"
+                 TextChanged="userInput_TextChanged"
+                 Width="115" />
         <TextBlock x:Name="userName"
+                   FontSize="16"
+                   VerticalAlignment="Center"
+                   Width="480"
+                   Grid.Column="1"
                    Grid.Row="2"
-                   Grid.Column="2"
-                   FontSize="24"
+                   Height="67"
+                   Grid.ColumnSpan="3" />
+        <TextBlock x:Name="Text"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   FontSize="20"
+                   Text="Indtast dit navn: "
                    VerticalAlignment="
                  Center"
                    HorizontalAlignment="
@@ -44,7 +53,7 @@
         <Button x:Name="buttonToClick"
                 Grid.Row="1"
                 Grid.Column="2"
-                FontSize="16" 
+                FontSize="16"
                 Content="Klik og få vist navn"
                 Click="buttonToClick_Click" />
     </Grid>

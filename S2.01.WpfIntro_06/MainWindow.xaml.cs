@@ -22,17 +22,20 @@ namespace S2._01.WpfIntro_06
     {
         public MainWindow()
         {
+
             InitializeComponent();
+           
         }
 
         private void userInput_TextChanged(object sender, TextChangedEventArgs e)
         {
 
-        }
+        } 
 
         private void buttonToClick_Click(object sender, RoutedEventArgs e)
         {
-
+            string text = userInput.Text;
+            userName.Text = $"Hej! {text} og velkommen til programmet.";
         }
     }
 }
