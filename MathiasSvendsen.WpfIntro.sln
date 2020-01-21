@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_01", "S2.01.WpfIntro_01\S2.01.WpfIntro_01.csproj", "{2FF7EEB9-39BF-4CB4-B58C-9DAFB97CA8B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2.01.WpfIntro_01", "S2.01.WpfIntro_01\S2.01.WpfIntro_01.csproj", "{2FF7EEB9-39BF-4CB4-B58C-9DAFB97CA8B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_02", "S2.01.WpfIntro_02\S2.01.WpfIntro_02.csproj", "{AA452786-15C5-4C31-B60B-75F2543E072A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2.01.WpfIntro_02", "S2.01.WpfIntro_02\S2.01.WpfIntro_02.csproj", "{AA452786-15C5-4C31-B60B-75F2543E072A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_03", "S2.01.WpfIntro_03\S2.01.WpfIntro_03.csproj", "{3809A34E-EF6C-4D0E-8226-5FF4DAB659D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2.01.WpfIntro_03", "S2.01.WpfIntro_03\S2.01.WpfIntro_03.csproj", "{3809A34E-EF6C-4D0E-8226-5FF4DAB659D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_04", "S2.01.WpfIntro_04\S2.01.WpfIntro_04.csproj", "{5C487F3E-DE68-43ED-8799-5D0D6F3EEA8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2.01.WpfIntro_04", "S2.01.WpfIntro_04\S2.01.WpfIntro_04.csproj", "{5C487F3E-DE68-43ED-8799-5D0D6F3EEA8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_05", "S2.01.WpfIntro_05\S2.01.WpfIntro_05.csproj", "{2B5C840E-2B9D-4F7C-A2DB-D5BFB5F981FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2.01.WpfIntro_05", "S2.01.WpfIntro_05\S2.01.WpfIntro_05.csproj", "{2B5C840E-2B9D-4F7C-A2DB-D5BFB5F981FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_06", "S2.01.WpfIntro_06\S2.01.WpfIntro_06.csproj", "{F4551988-AFC6-41F7-8133-4B759B9F1D61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2B5C840E-2B9D-4F7C-A2DB-D5BFB5F981FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B5C840E-2B9D-4F7C-A2DB-D5BFB5F981FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B5C840E-2B9D-4F7C-A2DB-D5BFB5F981FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4551988-AFC6-41F7-8133-4B759B9F1D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4551988-AFC6-41F7-8133-4B759B9F1D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4551988-AFC6-41F7-8133-4B759B9F1D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4551988-AFC6-41F7-8133-4B759B9F1D61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
