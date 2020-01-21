@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_06", "S2.01.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_07", "S2.01.WpfIntro_07\S2.01.WpfIntro_07.csproj", "{61098A0C-FC45-4137-9A41-D13612CECB8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S2.01.WpfIntro_08", "S2.01.WpfIntro_08\S2.01.WpfIntro_08.csproj", "{D477302F-F741-4BDE-9DAA-81788B1DAE4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{61098A0C-FC45-4137-9A41-D13612CECB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61098A0C-FC45-4137-9A41-D13612CECB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61098A0C-FC45-4137-9A41-D13612CECB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D477302F-F741-4BDE-9DAA-81788B1DAE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D477302F-F741-4BDE-9DAA-81788B1DAE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D477302F-F741-4BDE-9DAA-81788B1DAE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D477302F-F741-4BDE-9DAA-81788B1DAE4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
