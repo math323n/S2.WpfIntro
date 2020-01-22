@@ -5,8 +5,79 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:S2._01.WpfIntro_10"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Title="MainWindow"
+        WindowStartupLocation="CenterScreen"
+        Height="450"
+        Width="800">
     <Grid>
+        <Canvas>
+            <Canvas.Background>
+                <ImageBrush ImageSource="C:\Users\math323n\Downloads\bg.jpg"
+                            Stretch="Fill"></ImageBrush>
+            </Canvas.Background>
+
+            <Image x:Name="image"
+                   Height="528"
+                   Canvas.Left="130"
+                   Canvas.Top="-104"
+                   Width="528"
+                   Source="C:\Users\math323n\Downloads\windows-10-white-logo-png-1-transparent.png" />
+            <TextBlock x:Name="textBlock"
+                       Canvas.Left="340"
+                       Canvas.Top="189"
+                       Text="Bruger Login"
+                       TextWrapping="Wrap"
+                       Height="39"
+                       Width="132"
+                       Foreground="White"
+                       FontSize="22" />
+            <TextBox x:Name="textBoxUsername"
+                     Canvas.Left="346"
+                     Canvas.Top="233"
+                     Text="Brugernavn"
+                     TextWrapping="Wrap"
+                     Width="120"
+                     FontSize="10"
+                     Height="20" />
+            <TextBox x:Name="textBoxPassword"
+                     Canvas.Left="346"
+                     Canvas.Top="264"
+                     Text="Adgangskode"
+                     TextWrapping="Wrap"
+                     Width="96"
+                     FontSize="10"
+                     Height="20 " />
+            <Button x:Name="loginButton"
+                    Content="→ "
+                    Canvas.Left="441"
+                    Canvas.Top="264"
+                    RenderTransformOrigin="0.5,0.5"
+                    Width="25"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Background="#FFB6B0B0"
+                    Click="loginButton_Click">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform AngleY="-0.486" />
+                        <RotateTransform />
+                        <TranslateTransform Y="-0.075" />
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+            <TextBlock x:Name="hasLoggedIn"
+                       Canvas.Left="318"
+                       Canvas.Top="344"
+                       Text="Du har logget ind."
+                       TextWrapping="Wrap"
+                       Foreground="Red"
+                       FontSize="22"
+                       Visibility="Hidden" />
+
+        </Canvas>
 
     </Grid>
 </Window>
